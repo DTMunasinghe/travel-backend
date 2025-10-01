@@ -26,7 +26,7 @@ router.post("/", async (req, res) => {
 
     res.json({ itinerary, icsFile: Buffer.from(icsFile).toString("base64") });
   } catch (err) {
-    console.error("❌ Error in /api/plan:", err);
+    console.error("Error in /api/plan:", err);
     res.status(500).json({ error: "Failed to generate itinerary" });
   }
 });
