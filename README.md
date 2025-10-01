@@ -21,15 +21,3 @@ This is an Express + TypeScript backend that generates multi-day travel itinerar
 - **ICS Generator** (calendar export)  
 
 ---
-
-## 📂 Project Structure
-
-├── src/
-│ ├── routes/
-│ │ └── plan.ts # Express route for itinerary
-│ ├── utils/
-│ │ ├── travelPlanner.ts # OpenAI + fallback logic
-│ │ └── icsGenerator.ts # Generate calendar files
-│ └── index.ts # Entry point
-├── package.json
-└── README.md
