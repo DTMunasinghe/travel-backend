@@ -20,8 +20,11 @@ This is an Express + TypeScript backend that generates multi-day travel itinerar
 - **Google Maps API** (addresses / geo info)  
 - **ICS Generator** (calendar export)  
 
-Create .env file
+## Configure Environment Variables
+
+Create a `.env` file in the root:
+
+```env
 OPENAI_API_KEY=your_openai_api_key
 GOOGLE_MAPS_API_KEY=your_google_maps_key
 PORT=5000
-
